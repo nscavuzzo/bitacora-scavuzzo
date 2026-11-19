@@ -1,0 +1,18 @@
+# Salidas: se regeneran, no se versionan
+salidas/
+
+# Datos crudos: se versiona el código que los obtiene, no los datos
+datos/*.csv
+datos/*.xlsx
+*.xlsx
+
+# Claves de APIs: nunca en el repositorio
+*clave*.txt
+.env
+
+# Entorno y caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.Rhistory
+.RData
